@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration form</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <h2> Web developer, Programmer Vaccancy</h2>
+    <div class="box">
+
+        <form id="form">
+            <!-- name -->
+            <div class="r1">
+
+                <div class="col1">
+                    <label for="fname">Full name</label>
+                </div>
+                <div class="col2">
+                    <input type="text" id="fname" name="fname" placeholder="Surname  Name" pattern="[a-z]{50} value="
+                        surname" required>
+                </div>
+            </div>
+            <br><br>
+<!-- birthday -->
+            <div class="r1">
+                <div class="col1">
+                    <label for="birthday">Birthday:</label>
+                </div>
+                <div class="clo2">
+                    <input type="date" id="birthday" name="birthday" required> 
+                </div>
+            </div><br>
+ <!--  Gender -->
+                <div class="r1">
+                    <div class="col1">
+                <label for="gender">Gender</label>
+                </div>
+                <div class="col2">
+                <input type="radio" id="male" name="G1" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="G1" value="female">
+                <label for="other">Female</label>
+                <input type="radio" id="other" name="G1" value="other">
+                <label for="other">Other</label>
+                </div></div>
+                <br><br>
+<!-- Mobile -->
+                <div class="r1">
+                    <div class="col1">
+                        <label for="Mobile"> Mobile no.</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="Mobile" name="mobile" placeholder="with country code">
+                    </div>
+                    <br><br>
+                </div>
+<!-- email -->
+                <div class="r1">
+                    <div class="col1">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="email" name="email" required>
+                    </div>
+                </div> <br><br>
+<!-- linkdin -->
+                <div class="r1">
+                    <div class="col1">
+                        <label for="email2">Linkdin ID</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="email2" name="email2">
+                    </div>
+                </div> <br><br>
+ <!-- address -->
+                <div class="r1">
+                    <div class="col1">
+                        <label for="address">Address</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="address name=" address">
+                    </div>
+                </div> <br><br>
+ <!-- city -->
+                <div class="r1">
+                    <div class="col1">
+                        <label for="city"> City</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="City" name="City" >
+                    </div>
+                </div> <br><br>
+<!-- pincode -->
+                <div class="r1">
+                    <div class="col1">
+                        <label for="pincode"> Pin code</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="pincode">
+                    </div>
+                </div> <br><br>
+<!-- country -->
+                <div class="r1">
+                    <div class="col1">
+                        <label for="country"> Country</label>
+                    </div>
+                    <div class="col2">
+                        <select id="country" name="county">
+                            <option value="Australia">Australia</option>
+                            <option value="bhutan">bhutan</option>
+                            <option value="chin">chin</option>
+                            <option value="Denmark">Denmark</option>
+                            <option value="india">India</option>
+                            <option value="USA">USA</option>
+                            <option value="United kingdom">United kingdom</option>
+                        </select>
+                    </div>
+                </div><br><br>
+<!-- language -->
+                <div class="r1">
+                    <div class="col1">
+                        <label for="language"> <b>Knowledge of languages </b></label> <br>
+                    </div>
+                    <div class="col2">
+                        <input type="checkbox" id="language1" name="language1" value="java">
+                        <label for="language1"> Java </label>
+                        <input type="checkbox" id="language2" name="language2" value="C">
+                        <label for="language2"> C</label>
+                        <input type="checkbox" id="language3" name="language3" value="HTML">
+                        <label for="language3"> HTML</label>
+                        <input type="checkbox" id="language4" name="language4" value="C++">
+                        <label for="language4"> C++</label>
+                        <input type="checkbox" id="language5" name="language5" value="C#">
+                        <label for="language5"> C#</label>
+                        <input type="checkbox" id="language6" name="language5" value="MATLAB">
+                        <label for="language6"> MATLAB</label>
+                        <input type="checkbox" id="language7" name="language6" value="PHP">
+                        <label for="language7"> PHP</label>
+                        <input type="checkbox" id="language8" name="language7" value="python">
+                        <label for="language8"> python</label>
+                        <input type="checkbox" id="language9" name="language8" value="JavaScript ">
+                        <label for="language9"> JavaScript</label>
+                    </div>
+                </div>
+                <br><br><br>
+<!-- working status -->
+                <div class="r1">
+                    <div class="col1">
+                        <label for="working">Are you working now?</label>
+                    </div>
+                    <div class="col2">
+                        <input type="radio" id="yes" name="yes" value="yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="yes" value="no">
+                        <label for="no">No</label>
+                    </div>
+                </div> <br><br><br>
+<!-- Avaibility -->
+                <div class="r1">
+                    <div class="col1">
+                <label for="Avability">Avability</label>
+                </div>
+                <div class="col2">
+                    <input type="radio" id="fulltime" name="full" value="fulltime">
+                    <label for="fulltime">Full-time</label>
+                    <input type="radio" id="parttime" name="full" value="parttime">
+                    <label for="parttime">Part-time</label>
+                </div></div>
+                <br><br>
+
+ <!-- Position of job -->
+                <div class="r1">
+                    <div class="col1">
+                        <label for="position"> Level of Position</label>
+                    </div>
+                    <div class="col2">
+                        <select id="position" name="county">
+                            <option value="senior"> Senior Developer </option>
+                            <option value="junior"> Junior Developer </option>
+                            <option value="studentjon"> Student job </option>
+                            <option value="Internship"> Internship </option>
+                        </select>
+                    </div>
+                </div> <br><br><br>
+
+<!-- status -->
+                <div class="r1">
+    <div class="col1">
+            <label for="gender">Employment Status</label>
+    </div>
+    <div class="col2">
+            <input type="radio" id="emp" name="c_status" value="employed">
+            <label for="emp"> Employed</label>
+            <input type="radio" id="unemp" name="c_status" value="unemployed">
+            <label for="unemployed"> Unemployed</label>
+            <input type="radio" id="student" name="c_status" value="student">
+            <label for="student"> Student</label>
+            <input type="radio" id="self" name="c_status" value="selfemployed">
+            <label for="self"> Self-Emplyoed</label>
+        </div> </div>
+                <br><br><br>
+
+ <!-- file upload -->
+                <div class="r1">
+                    <div class="col1">
+                        <label for="myfile">Upload Resume</label>
+                    </div>
+                    <div class="col2">
+                        <input type="file" id="myfile" name="myfile">
+                    </div>
+                </div> <br><br><br>
+
+                <div class="r1">
+                    <div class="col1">
+                        <label for="myfile2">Upload Documents</label>
+                    </div>
+                    <div class="col2">
+                        <input type="file" id="myfile2" name="myfile2"> <!-- multiple= select multiple file-->
+                    </div>
+                </div>
+                <br><br>
+
+<!-- submit -->
+                <div class="row">
+                    <input type="submit" id="button" value="Submit">
+                </div>
+        </form>
+    </div>
+</body>
+
+</html>
